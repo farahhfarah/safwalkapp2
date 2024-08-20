@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		2368ECDF2C74D8910026607C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368ECDE2C74D8910026607C /* AppDelegate.swift */; };
 		2368ECE12C74D8910026607C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368ECE02C74D8910026607C /* SceneDelegate.swift */; };
-		2368ECE32C74D8910026607C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368ECE22C74D8910026607C /* ViewController.swift */; };
+		2368ECE32C74D8910026607C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368ECE22C74D8910026607C /* LoginViewController.swift */; };
 		2368ECE62C74D8910026607C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2368ECE52C74D8910026607C /* Base */; };
 		2368ECE82C74D8920026607C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2368ECE72C74D8920026607C /* Assets.xcassets */; };
 		2368ECEB2C74D8920026607C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2368ECEA2C74D8920026607C /* Base */; };
 		2368ECF62C74D8920026607C /* safwalkappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368ECF52C74D8920026607C /* safwalkappTests.swift */; };
 		2368ED002C74D8920026607C /* safwalkappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368ECFF2C74D8920026607C /* safwalkappUITests.swift */; };
 		2368ED022C74D8920026607C /* safwalkappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368ED012C74D8920026607C /* safwalkappUITestsLaunchTests.swift */; };
+		2368ED0F2C74ED050026607C /* CreateuserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368ED0E2C74ED050026607C /* CreateuserViewController.swift */; };
+		2368ED112C7504200026607C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368ED102C7504200026607C /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		2368ECDB2C74D8910026607C /* safwalkapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = safwalkapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2368ECDE2C74D8910026607C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2368ECE02C74D8910026607C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2368ECE22C74D8910026607C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2368ECE22C74D8910026607C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2368ECE52C74D8910026607C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2368ECE72C74D8920026607C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2368ECEA2C74D8920026607C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		2368ECFB2C74D8920026607C /* safwalkappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = safwalkappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2368ECFF2C74D8920026607C /* safwalkappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = safwalkappUITests.swift; sourceTree = "<group>"; };
 		2368ED012C74D8920026607C /* safwalkappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = safwalkappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2368ED0E2C74ED050026607C /* CreateuserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateuserViewController.swift; sourceTree = "<group>"; };
+		2368ED102C7504200026607C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				2368ECDE2C74D8910026607C /* AppDelegate.swift */,
 				2368ECE02C74D8910026607C /* SceneDelegate.swift */,
-				2368ECE22C74D8910026607C /* ViewController.swift */,
+				2368ECE22C74D8910026607C /* LoginViewController.swift */,
+				2368ED0E2C74ED050026607C /* CreateuserViewController.swift */,
+				2368ED102C7504200026607C /* MapViewController.swift */,
 				2368ECE42C74D8910026607C /* Main.storyboard */,
 				2368ECE72C74D8920026607C /* Assets.xcassets */,
 				2368ECE92C74D8920026607C /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2368ECE32C74D8910026607C /* ViewController.swift in Sources */,
+				2368ECE32C74D8910026607C /* LoginViewController.swift in Sources */,
 				2368ECDF2C74D8910026607C /* AppDelegate.swift in Sources */,
 				2368ECE12C74D8910026607C /* SceneDelegate.swift in Sources */,
+				2368ED112C7504200026607C /* MapViewController.swift in Sources */,
+				2368ED0F2C74ED050026607C /* CreateuserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
